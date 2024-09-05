@@ -147,5 +147,29 @@ body {
 }
 /* FOOTER SECTION  */
 .footer-sec {
+  text-align: center;
+  padding: 150px 0px;
+  color: white;
+  height: 313px;
   background-image: url("handshake.jpg");
+}
+.input-sec {
+  width: 548px;
+  height: 57px;
+  border-radius: 8px;
+  padding: 0px 8px;
+}
+
+.input-field {
+  display: flex;
+  justify-content: center;
+}
+.input-btn {
+  width: max-content;
+  background-color: white;
+  padding: 16.8px 22px;
+  border-radius: 8px;
+  margin-left: 2px;
+  font-weight: 600;
+  font-size: 23px;
 }
