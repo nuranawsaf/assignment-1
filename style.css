@@ -1,0 +1,151 @@
+body {
+  color: #0d1321;
+  font-family: "Azeret Mono", monospace;
+}
+.sb {
+  border: red;
+  border-style: solid;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2px 150px 60px 150px;
+}
+.awlad {
+  color: #0d1321;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.resume-button {
+  padding: 17px 24px;
+  border-style: solid;
+  cursor: pointer;
+  border-radius: 8px;
+  border-width: 1px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(13, 19, 33, 1);
+}
+/* SECTION TASK */
+.section-task {
+  text-align: center;
+  background-image: url("Hero-bg.png");
+}
+.img-div {
+  padding: 25px 0px;
+}
+.heading-text {
+  font-size: 48px;
+}
+.section-description {
+  opacity: 0.7;
+  margin-bottom: 32px;
+}
+.conact-btn {
+  padding: 17px 24px;
+  border-style: solid;
+  cursor: pointer;
+  border-radius: 8px;
+  border-width: 1px;
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: 600;
+  background-color: rgba(13, 19, 33, 1);
+  color: white;
+}
+/* SECTION-2 STYLE */
+.background {
+  background-color: #fafafb;
+  padding-bottom: 80px;
+}
+.section2-style {
+  text-align: center;
+  padding: 80px 140px;
+}
+
+.card-section1 {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 97px 32px 97px;
+}
+.card-section1 img {
+  width: 274.17px;
+  height: 240px;
+}
+.card-description {
+  opacity: 0.7;
+}
+.learn-more {
+  padding: 17px 24px;
+  border-style: solid;
+  cursor: pointer;
+  background-color: white;
+  border-width: 1px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(13, 19, 33, 1);
+  opacity: 0.7;
+}
+/* VIDEO-SECTION */
+.video-style {
+  border-radius: 16px;
+}
+.video-sec {
+  width: max-content;
+  border-radius: 16px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 32px;
+  border-color: rgba(13, 19, 33, 0.2);
+}
+.video-main {
+  display: flex;
+  justify-content: center;
+}
+.insp-description {
+  opacity: 0.7;
+}
+/* CARDS-task */
+.card-align {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 0px 150px;
+}
+.card1 {
+  background-color: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+}
+.card2 {
+  background-color: rgba(0, 76, 232, 0.05);
+  margin-left: 24px;
+  padding: 40px;
+}
+.card3 {
+  background-color: rgba(255, 223, 0, 0.05);
+  margin-left: 24px;
+  padding: 40px;
+}
+.card-btn {
+  color: #0d1321;
+}
+/* BLOG SECTION */
+.blog1,
+.blog2,
+.blog3 {
+  border: solid;
+  border-color: rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  padding: 40px;
+  margin-bottom: 24px;
+}
+.background2 {
+  margin: 0px 150px;
+}
+/* FOOTER SECTION  */
+.footer-sec {
+  background-image: url("handshake.jpg");
+}
